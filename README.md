@@ -13,7 +13,7 @@ The gf28 class itself is hosted at https://github.com/jevillegasd/GF2-8
  uint8_t plain_text0[16] = "This is secret.";
  
  AES aes(key);
- aes.ECB_encrypt(plain_text);
- aes.ECB_decrypt(plain_text);
+ aes.Cipher(plain_text);
+ aes.Decipher(plain_text);
 
 ```
