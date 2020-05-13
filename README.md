@@ -10,7 +10,7 @@ The gf28 class itself is hosted at https://github.com/jevillegasd/GF2-8
 ```c++
  #include "AES.h"
  uint8_t key[16] = { 0x11, 0x22, 0x33, 0x44}; // The class will automaticaly expand the key when declared.
- uint8_t plain_text0[16] = "This is secret.";
+ uint8_t plain_text[16] = "This is secret.";
  
  AES aes(key);
  aes.Cipher(plain_text);
